@@ -99,4 +99,8 @@ export default {
             border-radius: 10px;
 
         }
+        .inApp:hover {
+            background-color: rgba(0, 0, 0, 0.158);
+            color: white;
+        }
 </style>
