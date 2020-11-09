@@ -49,6 +49,8 @@ export default {
                     document.getElementById('Broj').value = "";
                     
                     this.saveToLocalStorage();
+
+                    
                 },
                 saveToLocalStorage(){
                         localStorage.setItem('imenik-data', JSON.stringify(this.stavke));
